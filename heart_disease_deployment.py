@@ -1,7 +1,8 @@
 import pickle
 import streamlit as st
 
-model = pickle.load(open("D:/data science/heart_disease_model.pkl", "rb"))
+model = pickle.load(open("heart_disease_model.pkl", "rb"))
+
 
 def main():
     st.title("Heart Disease predictive system")
